@@ -28,3 +28,15 @@
     font-family: bold-rubik;
     src: url(Rubik/static/Rubik-Bold.ttf);
 }
+
+body {
+    background-color: var(--Light-Grayish-Violet);
+    margin: 0;
+}
+
+.background-gradient {
+    max-width: 350px;
+    height: 85vh;
+    background-image: linear-gradient(var(--LightMagenta), var(--LightViolet));
+    border-radius: 0px 0px 170px 170px;
+}
