@@ -39,4 +39,39 @@ body {
     height: 85vh;
     background-image: linear-gradient(var(--LightMagenta), var(--LightViolet));
     border-radius: 0px 0px 170px 170px;
+    margin-left: -30px;
+}
+
+.mobile {
+    height: 411px;
+    border: 10px solid white;
+    width: 240px;
+    position: relative;
+    bottom: 410px;
+    left: 250px;
+    border-radius: 20px;
+}
+
+.topscreen-gradient {
+    background-image: linear-gradient(to left, var(--LightMagenta), var(--LightViolet));
+    height: 60px;
+    border-radius: 10px;
+}
+
+.topscreen-gradient::after {
+    content: "";
+    position: absolute;
+    right: 60px;
+    width: 120px;
+    height: 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.mobile-content {
+    background-color: var(--Light-Grayish-Violet);
+    height: 360px;
+
+
 }
