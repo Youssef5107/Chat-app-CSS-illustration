@@ -1,128 +1,143 @@
 :root {
-    --Pale-Violet: hsl(276, 100%, 81%);
-    --Moderate-Violet: hsl(276, 55%, 52%);
-    --Desaturated-Dark-Violet: hsl(271, 15%, 43%);
-    --Grayish-Blue: hsl(206, 6%, 79%);
-    --Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
-    --Dark-Grayish-Violet: hsl(270, 7%, 64%);
-    --White: hsl(0, 0%, 100%);
-    --Light-Grayish-Violet: hsl(270, 20%, 96%);
-    --Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
-    --Very-Light-Magenta: hsl(289, 100%, 72%);
-    /* gradients */
-    --LightMagenta: hsl(293, 100%, 63%);
-    --LightViolet: hsl(264, 100%, 61%);
-    /*gradients*/
-    --White: hsl(0, 0%, 100%);
-    --Light-Grayish-Violet: hsl(270, 20%, 96%);
-    --Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
-    --Very-Light-Magenta: hsl(289, 100%, 72%);
+	--Pale-Violet: hsl(276, 100%, 81%);
+	--Moderate-Violet: hsl(276, 55%, 52%);
+	--Desaturated-Dark-Violet: hsl(271, 15%, 43%);
+	--Grayish-Blue: hsl(206, 6%, 79%);
+	--Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+	--Dark-Grayish-Violet: hsl(270, 7%, 64%);
+	--White: hsl(0, 0%, 100%);
+	--Light-Grayish-Violet: hsl(270, 20%, 96%);
+	--Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+	--Very-Light-Magenta: hsl(289, 100%, 72%);
+	/* gradients */
+	--LightMagenta: hsl(293, 100%, 63%);
+	--LightViolet: hsl(264, 100%, 61%);
+	/*gradients*/
+	--White: hsl(0, 0%, 100%);
+	--Light-Grayish-Violet: hsl(270, 20%, 96%);
+	--Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+	--Very-Light-Magenta: hsl(289, 100%, 72%);
 }
 
 @font-face {
-    font-family: regular-rubik;
-    src: url(Rubik/static/Rubik-Regular.ttf);
+	font-family: regular-rubik;
+	src: url(Rubik/static/Rubik-Regular.ttf);
 }
 
 @font-face {
-    font-family: bold-rubik;
-    src: url(Rubik/static/Rubik-Bold.ttf);
+	font-family: bold-rubik;
+	src: url(Rubik/static/Rubik-Bold.ttf);
+}
+
+@font-face {
+	font-family: light;
+	src: url(Rubik/static/Rubik-Light.ttf);
 }
 
 body {
-    background-color: var(--Light-Grayish-Violet);
-    margin: 0;
+	background-color: var(--Light-Grayish-Violet);
+	margin: 0;
+
 }
 
 .background-gradient {
-    max-width: 350px;
-    height: 85vh;
-    background-image: linear-gradient(var(--LightMagenta), var(--LightViolet));
-    border-radius: 0px 0px 170px 170px;
-    margin-left: -30px;
+	max-width: 350px;
+	height: 85vh;
+	background-image: linear-gradient(var(--LightMagenta), var(--LightViolet));
+	border-radius: 0px 0px 170px 170px;
+	margin-left: -30px;
 }
 
+/* .flex-area {
+    display: flex;
+    border: 1px black solid;
+} */
+
 .mobile {
-    height: 411px;
-    border: 10px solid white;
-    width: 240px;
-    position: relative;
-    bottom: 410px;
-    left: 250px;
-    border-radius: 20px;
+	height: 411px;
+	border: 10px solid white;
+	width: 240px;
+	position: relative;
+	bottom: 410px;
+	left: 250px;
+	border-radius: 20px;
 }
 
 .topscreen-gradient {
-    background-image: linear-gradient(to left, var(--LightMagenta), var(--LightViolet));
-    height: 60px;
-    border-radius: 10px;
+	background-image: linear-gradient(to left, var(--LightMagenta), var(--LightViolet));
+	height: 60px;
+	border-radius: 10px;
 }
 
 .topscreen-gradient::after {
-    content: "";
-    position: absolute;
-    right: 60px;
-    width: 120px;
-    height: 15px;
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 0px 0px 10px 10px;
-    top: -4px;
+	content: "";
+	position: absolute;
+	right: 60px;
+	width: 120px;
+	height: 15px;
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+	top: -4px;
 }
 
 .mobile-content {
-    background-color: var(--Light-Grayish-Violet);
-    height: 360px;
-
-
+	background-color: var(--Light-Grayish-Violet);
+	height: 360px;
 }
 
 .user-photo {
-    border-radius: 50%;
-    /* font-size: 10px; */
-    width: 20px;
-    border: solid 1px white;
-    padding: 0px;
-    position: relative;
-    top: 25px;
-    left: 20px;
+	border-radius: 50%;
+	/* font-size: 10px; */
+	width: 20px;
+	border: solid 1px white;
+	padding: 0px;
+	position: relative;
+	top: 25px;
+	left: 20px;
 }
 
 .user-name {
-    font-size: 12px;
-    position: relative;
-    color: white;
-    left: 50px;
-    bottom: 3px;
+	font-size: 12px;
+	position: relative;
+	color: white;
+	left: 50px;
+	bottom: 3px;
 }
 
 .about {
-    position: relative;
-    font-size: 9px;
-    color: var(--Dark-Grayish-Violet);
-    left: 50px;
-    bottom: 5px;
+	position: relative;
+	font-size: 9px;
+	color: var(--Dark-Grayish-Violet);
+	left: 50px;
+	bottom: 5px;
 }
 
 .user-profile {
-    padding-left: 10px;
+	padding-left: 10px;
+}
+
+
+.grid-area {
+	display: flex;
+	justify-content: end;
+	margin-right: 20%;
 }
 
 .content {
-    position: relative;
-    left: 600px;
-    bottom: 740px;
-    max-width: 385px;
+	position: absolute;
+	top: 356px;
+	width: 310px;
 }
 
 .content-title {
-    font-size: 27px;
-    font-family: regular-rubik;
-    margin-bottom: 20px;
-    color: var(--Very-Dark-Desaturated-Violet);
+	font-size: 27px;
+	font-family: regular-rubik;
+	margin-bottom: 20px;
+	color: var(--Very-Dark-Desaturated-Violet);
 }
 
 .content-text {
-    color: var(--Dark-Grayish-Violet);
-    font-size: 16px;
+	color: var(--Dark-Grayish-Violet);
+	font-size: 16px;
 }
