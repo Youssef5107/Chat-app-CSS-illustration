@@ -60,13 +60,13 @@ main .grid-area {
 
 
 .mobile {
-	height: 430px;
+	height: 500px;
 	border: 10px solid white;
 	width: 240px;
 	position: relative;
 	border-radius: 20px;
 	margin-left: -6%;
-	margin-top: 200px;
+	margin-top: 130px;
 }
 
 
@@ -90,7 +90,7 @@ main .grid-area {
 
 .mobile-content {
 	background-color: var(--Light-Grayish-Violet);
-	height: 360px;
+	height: 500px;
 }
 
 .user-photo {
@@ -153,9 +153,10 @@ main .grid-area {
 	height: fit-content;
 	font-size: 10px;
 	margin-top: 10px;
-	padding-left: 10px;
+	margin-left: 10px;
 	border-radius: 5px;
 	padding: 7px;
+
 }
 
 .mobile-dogs-imgs {
@@ -173,12 +174,59 @@ main .grid-area {
 .chat-box4 {
 	font-family: light;
 	font-size: 10px;
-	width: 100px;
+	width: 130px;
 	height: fit-content;
 	margin-top: 10px;
 	color: black;
 	background-color: white;
 	border-radius: 5px;
-	margin-left: 120px;
+	margin-left: 90px;
 	padding: 7px;
+}
+
+.offer-1,
+.offer-2 {
+	width: 150px;
+	height: 30px;
+	margin-top: 10px;
+	background-image: linear-gradient(to right, var(--LightMagenta), var(--LightViolet));
+	color: white;
+	border-radius: 7px;
+	margin-left: 10px;
+
+}
+
+.time-1,
+.time-2 {
+	position: relative;
+	top: 4px;
+	left: 10px;
+	font-size: 10px;
+	color: white;
+}
+
+.price-1 {
+	font-family: bold;
+	position: relative;
+	left: 45px;
+	top: 6px;
+}
+
+.price-2 {
+	font-family: bold;
+	position: relative;
+	left: 60px;
+	top: 6px;
+}
+
+.text-box {
+	margin-top: 20px;
+}
+
+.input-text {
+	border: 1px;
+	border-radius: 10px;
+	width: 85%;
+	height: 24px;
+	margin-left: 10px;
 }
