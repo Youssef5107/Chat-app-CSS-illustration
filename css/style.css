@@ -60,7 +60,7 @@ main .grid-area {
 
 
 .mobile {
-	height: 411px;
+	height: 430px;
 	border: 10px solid white;
 	width: 240px;
 	position: relative;
@@ -141,4 +141,44 @@ main .grid-area {
 .content-text {
 	color: var(--Dark-Grayish-Violet);
 	font-size: 16px;
+}
+
+.chat-box1,
+.chat-box2,
+.chat-box5 {
+	font-family: light;
+	color: var(--Moderate-Violet);
+	background-color: var(--Pale-Violet);
+	width: 150px;
+	height: fit-content;
+	font-size: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	padding: 7px;
+}
+
+.mobile-dogs-imgs {
+	margin: 25px 0px 10px 120px;
+
+}
+
+.dogs-imgs {
+	width: 30px;
+	border-radius: 10px;
+	margin-right: 5px;
+}
+
+.chat-box3,
+.chat-box4 {
+	font-family: light;
+	font-size: 10px;
+	width: 100px;
+	height: fit-content;
+	margin-top: 10px;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	margin-left: 120px;
+	padding: 7px;
 }
