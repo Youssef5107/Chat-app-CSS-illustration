@@ -20,12 +20,12 @@
 }
 
 @font-face {
-	font-family: regular-rubik;
+	font-family: regular;
 	src: url(Rubik/static/Rubik-Regular.ttf);
 }
 
 @font-face {
-	font-family: bold-rubik;
+	font-family: bold;
 	src: url(Rubik/static/Rubik-Bold.ttf);
 }
 
@@ -44,14 +44,15 @@ main {
 	display: flex;
 }
 
-main .grid-area {
+main .flex-area2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .background-gradient {
-	width: 30%;
+	width: 26%;
 	height: 85vh;
 	background-image: linear-gradient(var(--LightMagenta), var(--LightViolet));
 	border-radius: 0px 0px 170px 170px;
@@ -123,7 +124,8 @@ main .grid-area {
 	padding-left: 10px;
 }
 
-.grid-area {
+
+.flex-area2 {
 	flex-grow: 1;
 }
 
@@ -206,14 +208,14 @@ main .grid-area {
 }
 
 .price-1 {
-	font-family: bold;
+	font-family: regular;
 	position: relative;
 	left: 45px;
 	top: 6px;
 }
 
 .price-2 {
-	font-family: bold;
+	font-family: regular;
 	position: relative;
 	left: 60px;
 	top: 6px;
@@ -229,4 +231,58 @@ main .grid-area {
 	width: 85%;
 	height: 24px;
 	margin-left: 10px;
+}
+
+
+
+@media(max-width:730px) {
+	main {
+		flex-wrap: wrap;
+	}
+
+	.mobile {
+		margin: 50px auto 0px;
+	}
+
+	.background-gradient {
+		width: 40%;
+		height: 500px;
+		border-radius: 0px 0px 200px;
+	}
+
+	.flex-area2 {
+		margin-top: 50px;
+	}
+
+	.content {
+		text-align: center;
+		width: 270px;
+	}
+
+}
+
+@media(max-width:400px) {
+
+	main {
+		flex-wrap: wrap;
+	}
+
+	.background-gradient {
+		width: 55%;
+		border-radius: 0px 0px 170px;
+		height: 400px;
+	}
+
+	.flex-area2 {
+		margin-top: 50px;
+	}
+
+	.mobile {
+		margin: -300px auto 0px;
+	}
+
+	.content {
+		text-align: center;
+		width: 270px;
+	}
 }
