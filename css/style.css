@@ -295,7 +295,7 @@ main .flex-area2 {
 	}
 
 	.mobile {
-		margin: 50px auto 0px;
+		margin-top: 50px;
 	}
 
 	.background-gradient {
@@ -319,6 +319,10 @@ main .flex-area2 {
 
 	main {
 		flex-wrap: wrap;
+	}
+
+	main.mobile {
+		justify-content: center;
 	}
 
 	.background-gradient {
