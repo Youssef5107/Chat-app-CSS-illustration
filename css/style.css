@@ -89,6 +89,39 @@ main .flex-area2 {
 	top: -4px;
 }
 
+.arrow {
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(135deg);
+	position: relative;
+	top: -26px;
+	left: 10px;
+}
+
+.dot1,
+.dot2,
+.dot3 {
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	background-color: white;
+	position: relative;
+	top: -40px;
+	left: 200px;
+}
+
+.dot2 {
+	position: relative;
+	top: -38px;
+}
+
+.dot3 {
+	position: relative;
+	top: -36px;
+}
+
 .mobile-content {
 	background-color: var(--Light-Grayish-Violet);
 	height: 500px;
@@ -231,6 +264,27 @@ main .flex-area2 {
 	width: 85%;
 	height: 24px;
 	margin-left: 10px;
+}
+
+.arrow2-background {
+	border-radius: 50%;
+	background-color: var(--Very-Dark-Desaturated-Violet);
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: -23px;
+	left: 190px;
+}
+
+.arrow2 {
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(-45deg);
+	position: relative;
+	left: 5px;
+
 }
 
 
